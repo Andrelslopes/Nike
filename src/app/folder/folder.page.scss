@@ -1,7 +1,3 @@
-* {
-  border: 1px solid #000;
-}
-
 ion-menu-button {
   color: var(--ion-color-primary);
 }
@@ -32,10 +28,6 @@ ion-menu-button {
 }
 
 ion-content{
-
- // --background: rgba(2,0,36);
-  //--background: radial-gradient(circle, #abab03, #019068);
-
   --background: radial-gradient(circle at 30%, #abab03, #019068 30%);
 }
 
@@ -44,13 +36,10 @@ ion-col {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //text-align: center;
-
   background-color: #135d5400;
   border: solid 1px #ffffff00;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  //font-style: italic;
 }
 
 #logo_nike{
@@ -64,7 +53,6 @@ ion-col {
   height: 90px;
 }
 
-
 #summer {
   display:contents;
   justify-content:flex-start;
@@ -72,6 +60,7 @@ ion-col {
   font-family:'Holtwood One SC';
   color: #14214c;
 }
+
 span {
   color: #FFFFFF;
 }
@@ -84,23 +73,15 @@ ion-button {
   --background: #ffbb00;
   --background-hover: #d29f14;
   --background-activated: #d29f14;
-  //--background-focused: #88f4be;
-
   --color: #FFFFFF;
   --font-family:Arial, Helvetica, sans-serif;
-
   --border-radius: 50px;
   --border-color: #000;
   --border-style: solid;
   --border-width: 0px;
-
   --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
-
-  //--ripple-color: deeppink;
-
   --padding-top: 10px;
   --padding-bottom: 10px;
-  
 }
 
 
