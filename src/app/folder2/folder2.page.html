@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <!--Div que controla o menu, logo e imagem do usuário na parte superior-->
+  <div class="superior">
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <img src="assets/menu.png" />
+      </ion-menu-button>
+    </ion-buttons>
+
+    <img src="assets/logo2-svg.png" alt="logoNike" class="logo" />
+
+    <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/2387693-icone-do-perfil-do-usuario-vetor.jpg" alt="Imagem de Perfil" class="perfil"/>
+  </div>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="sapatos">
+    <ion-card class="bk1">
+      <img alt="Tenis branco, amarelo e verde" src="assets/shoecard.png" class="tenis1" />
+    </ion-card>
+    <ion-card class="bk2">
+      <img alt="Tenis branco, Azul e Branco" src="assets/image-removebg.png" class="tenis1"/>
+    </ion-card>
+    <ion-card class="bk2">
+      <img alt="Tenis branco, Bege e Rosa" src="assets/image.png" class="tenis1" />
+    </ion-card>
+  </div>
+  <div class="img_tenis">
+    <img src="assets/tenisCon.png" alt="Tênis da nike" class="Tenis" />
+  </div>
+  
+
+  <ion-card-header>
+    <ion-card-title class="sub2">kyrie infinity </ion-card-title>
+    <ion-card-subtitle class="sub1">Calçados para Basquete</ion-card-subtitle>
+    <ion-card-content class="text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Quisque vitae porta ante. Suspendisse a mass justo lacinia accumsan.
+    </ion-card-content>
+    
+  </ion-card-header>
+
+  <ion-grid class="grid">
+    
+    <ion-row>
+      <ion-col class="col_one">
+        <ion-card-header class="sub1">Preço</ion-card-header>
+        <ion-card-header class="sub2"> $ 799</ion-card-header>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="col_two">
+        <ion-button class="peqb1">
+          <img alt="Ícone de share" src="assets/share.png" id="img_one"/>
+        </ion-button>
+        <ion-button class="peqb2">
+          <img alt="Ícone de share" src="assets/shopping-bag.png" id="img_two" />
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+    
+</ion-content>

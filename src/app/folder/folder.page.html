@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col id="logo_nike">
+        <ion-img id="img_logo" src="../../assets/nike.png" alt="Nike"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col><ion-img src="../../assets/image-removebg-preview (3) 1.png" alt="The IMAGE"></ion-img> </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col id="summer" > SUMMER COLLECTIONS <span class="sammer">2022</span> </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <p id="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Sit repellat magnam incidunt consequuntur, libero molestias nobis aut, 
+          sed facilis id minima soluta ab debitis aspernatur voluptas dolores, 
+          culpa maxime! Ipsa!
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button routerLink="/folder2"><b>GET STATED</b></ion-button>
+      </ion-col>
+    </ion-row>
+  
+  </ion-grid>
+
+</ion-content>

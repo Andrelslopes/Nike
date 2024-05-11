@@ -1,0 +1,137 @@
+* {
+    //border: 1px solid #000;
+  }
+
+  ion-header {
+    --backgroun: #fff;
+  }
+  ion-content {
+    --background: #fff;
+  }
+  ion-buttons {
+    --background: none;
+  }
+  .superior {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .logo{
+    width: 70px;
+    height: 35px;
+  }
+  
+  .perfil {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sapatos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .img_tenis{
+    text-align: center;
+  }
+
+  .tenis1 {
+    width: 110px;
+    height: 110px;
+  }
+  .Tenis {
+    width: 360px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .bk1 {
+    --background: #fff05d;
+    border-radius: 15px;
+  }
+  .bk2 {
+    --background: #e1e0e0;
+    border-radius: 15px;
+  }
+
+  .text {
+    padding-left: 0px;
+    color: #144273;
+    font-size: 14px;
+    display: flex;
+    font-family: "Istok Web", sans-serif;
+  }
+
+  .grid {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    font-family: "Holtwood One SC", serif;
+    font-size: 30px;
+    color: #144273;
+  }
+
+
+  .col_one{
+    width: 30%;
+    height: 100%;
+
+  }
+  .col_two{
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+
+  }
+
+  .sub1 {
+    padding: 0px;
+    color: #144273;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "Istok Web", sans-serif;
+  }
+  .sub2 {
+    padding: 0px;
+    color: #144273;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Holtwood One SC", serif;
+  }
+
+  .peqb1 {
+    width: 50px;
+    height: 50px;
+    --background: #144273;
+    --border-radius: 50px;
+  }
+
+  .peqb2 {
+    width: 50px;
+    height: 50px;
+    --background: linear-gradient(1deg, #44eb84, #129b8e);
+    // --background: #144273;
+    --border-radius: 50px;
+  }
+
+  #img_one{
+    width: 70px;
+    height: 30px;
+  }
+
+  #img_two{
+    width: 70px;
+    height: 30px;
+  }
